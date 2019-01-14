@@ -1,5 +1,5 @@
 # LocalLibrary
-A sample library project using vanilla java, mongoDB backend with Mongoose base on the MDN tutorial. I plan to expand on this work by making the project deployable on Heroku and switch to React.js 
+A sample library project using vanilla java, mongoDB backend with Mongoose base on the MDN tutorial. I plan to expand on this work by making the project deployable on Heroku and switch to React.js. User will be create, modify and browse information regarding books, authors and genre. 
 
 ## Getting Started
 
@@ -7,7 +7,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Set up compatible backend, I recommend MLab, since it uses MongoDB and Mongoose. This the backend I used for the project as well as the one used in the original MDN tutorial.
+
+See https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
 
 ```
 Give examples
