@@ -1,5 +1,5 @@
 # LocalLibrary
-A sample library project using vanilla java, mongoDB backend with Mongoose base on the MDN tutorial. I plan to expand on this work by making the project deployable on Heroku and switch to React.js 
+A sample library project using vanilla java, mongoDB backend with Mongoose base on the MDN tutorial. I plan to expand on this work by making the project deployable on Heroku and switch to React.js. User will be create, modify and browse information regarding books, authors and genre. The project is also paired with nodemon to make development easier. I plan to adopt the work to react and add a bit of sugar to the front end. 
 
 ## Getting Started
 
@@ -7,53 +7,43 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Setup compatible database, I recommend MLab, since it uses MongoDB and Mongoose. This the database I used for the project as well as the one used in the original MDN tutorial.
 
-```
-Give examples
-```
+See https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
+
+Setup Node.js. Use anything creater than version 6.1.4
+
+See https://nodejs.org/en/
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Install specified packages with npm
 
 ```
 npm install
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+For production
+
+mac
+
+'''
+DEBUG=express-locallibrary-tutorial:* npm start
+'''
+
+windows
+
+'''
+SET DEBUG=express-locallibrary-tutorial:* & npm start
+'''
+
+For development
+
+'''
+npm start
+'''
 
 ## Built With
 
@@ -65,22 +55,15 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Yumo Chi** - *Initial work* - https://github.com/yumochi
 
 ## License
-
-
+MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
+* Hat tip to MDN tutorial
+* Inspired by my previous expreience with react as well as node.js
 * etc
